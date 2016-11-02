@@ -1,0 +1,80 @@
+body {
+  background-color: #FBFBFB;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #93AFC0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #605e66;
+  font-size: 20px;
+}
+
+p, table {
+  font-family: 'Karla', sans-serif;
+  color: #7C7A84;
+}
+
+a {
+  text-decoration: none;
+  color: #7C7A84;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+strong:hover {
+  color: #C22F2F;
+
+}
+
+.container {
+  margin: 20px;
+}
+
+.list_inline li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.list_inline a {
+  padding: 20px;
+  font-size: 40px;
+}
+
+.list_inline a:hover {
+  color: #93AFC0;
+  transition: color 0.4s ease;
+}
+
+.img_circle {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.card {
+  background-color: #eae5e1;
+  text-align: center;
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #dbdbdb;
+}
+
+.img_table {
+  width: 300px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.img_table:hover {
+  box-shadow: 5px 5px 5px #ccc3bb;
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
